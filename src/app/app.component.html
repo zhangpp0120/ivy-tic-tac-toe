@@ -1,0 +1,11 @@
+<p>Start editing to see some magic happen :)</p>
+
+<div class="row">
+  <app-cell></app-cell>
+</div>
+
+<table>
+  <tr *ngFor="let row of cells; let i = index">
+    <td *ngFor="let cell of row">{{ cell }}</td>
+  </tr>
+</table>

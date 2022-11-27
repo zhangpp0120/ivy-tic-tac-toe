@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+td {
+  text-align: center;
+}
